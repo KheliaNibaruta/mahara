@@ -12,9 +12,11 @@ $theme = new stdClass();
 
 $theme->displayname  = 'ucl_from_raw';
 $theme->formrenderer = 'div';
-$theme->parent      = false;
+$theme->parent      = 'raw';
+$theme->overrideparentcss = true;
 
 $theme->themeaddressbar = '#ffffff';
+$theme->skins = true;
 
 /**
  * There are more themeconfig options available. For an explanation of
