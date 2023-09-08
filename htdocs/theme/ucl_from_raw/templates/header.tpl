@@ -77,12 +77,12 @@
                 {include file="header/topright.tpl"}
 
                 <div class="nav-toggle-area">
-                    {if $MAINNAV}
+                    {*{if $MAINNAV}
                         <button class="main-nav-toggle navbar-toggle collapsed" type="button" data-bs-toggle="collapse" data-bs-target=".nav-main" aria-expanded="false" aria-controls="main-nav" title='{str tag="mainmenu"}'>
                             <span class="visually-hidden">{str tag="showmainmenu"}</span>
                             <span class="icon icon-bars icon-lg" role="presentation" aria-hidden="true"></span>
                         </button>
-                    {/if}
+                    {/if}*}
                     {if $MAINNAVADMIN}
                         <button class="admin-toggle navbar-toggle collapsed" type="button" data-bs-toggle="collapse" data-bs-target=".nav-main-admin" aria-expanded="false" aria-controls="main-nav-admin" title='{str tag="adminmenu"}'>
                             <span class="visually-hidden">{str tag="showadminmenu"}</span>

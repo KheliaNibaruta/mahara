@@ -64,3 +64,111 @@
 .alert a.copytextboxnote {
     text-decoration: underline;
 }
+
+ /* The side navigation menu */
+ .sidemenu {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.25rem;
+    margin: 0;
+    padding: 1rem;
+    width: 240px;
+    background-color: transparent;
+    position: sticky;
+    height: 100%;
+    overflow: auto;
+    border-radius: 0.25rem;
+    list-style-type: disc;
+  }
+  
+  /* Sidebar links */
+  .sidemenu button {
+    display: flex;
+    width: 13rem;
+    align-items: start;
+    color: #454441;
+    padding: 0.5rem;
+    text-decoration: none;
+    gap: 1.625rem;
+    background-color: #fff;
+    border-radius: 0.25rem;
+    border: none;
+  }
+
+  .sidemenu a {
+    display: flex;
+    width: 13rem;
+    align-items: start;
+    color: #454441;
+    padding: 0.5rem;
+    text-decoration: none;
+    gap: 1.625rem;
+    background-color: #fff;
+    border-radius: 0.25rem;
+  }
+  
+  /* Active/current link */
+ 
+  .sidemenu a.active {
+    background-color: #bad132;
+    color: #454441;
+  }
+  
+  /* Links on mouse-over */
+  
+  .sidemenu a:hover:not(.active) {
+    background-color: #bad132;
+    color: #454441;
+  }
+  .sidemenu button:hover:not(.active) {
+    background-color: #bad132;
+    color: #454441;
+  }
+  
+  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  /* On screens that are less than 700px wide, make the sidebar into a topbar */
+  @media screen and (max-width: 700px) {
+    .sidemenu {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidemenu a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+  @media screen and (max-width: 400px) {
+    .sidemenu a {
+      text-align: center;
+      float: none;
+    }
+  } 
+
+  .side {
+    display: inline-flex;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(69, 68, 65, 0.80);
+    gap: 1.25rem;
+    width: 250px;
+    border-radius: 0.25rem;
+  }
+  
+  .sidemenu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .side ul{
+    list-style-type: none;
+  }

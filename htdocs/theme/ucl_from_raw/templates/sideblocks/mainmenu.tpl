@@ -1,4 +1,3 @@
-
 <div id="rigthmenu" class="side">
     <nav aria-label="{str tag=mainmenu setction=mahara}">
     {*<div id="main-nav" class="{if $ADMIN || $INSTITUTIONALADMIN || $STAFF || $INSTITUTIONALSTAFF || $INSTITUTIONALSUPPORTADMIN}adminnav{/if} nav collapse navbar-collapse nav-main">
@@ -9,7 +8,7 @@
                     {if !$item.submenu}{* Create a link to the main page *}
                     <a href="{$WWWROOT}{$item.url}" class="{if $item.path}{$item.path}{else}dashboard{/if}">
                     {else}{* Otherwise, create list items as buttons to expand submenus *}
-                    <button class="{if $item.path}{$item.path}{else}dashboard{/if} menu-dropdown-toggle {if !$item.selected} collapsed{/if}" data-bs-toggle="collapse" {*data-bs-parent="#nav"*} data-bs-target="#childmenu-{$dwoo.foreach.menu.index}" aria-expanded="false">
+                    <button class="{if $item.path}{$item.path}{else}dashboard{/if} menu-dropdown-toggle {if !$item.selected} collapsed{/if}" data-bs-toggle="collapse" data-bs-parent="#nav" data-bs-target="#childmenu-{$dwoo.foreach.menu.index}" aria-expanded="false">
                     {/if}
                     {if $item.iconclass}
                         <span class="icon icon-{$item.iconclass}" role="presentation" aria-hidden="true"></span>
@@ -20,7 +19,7 @@
                     {$item.title}
                     {if $item.accessibletitle}
                         </span>
-                        <span class="">
+                        <span class="accessible-hidden visually-hidden">
                             ({$item.accessibletitle})
                         </span>
                     {/if}
@@ -45,7 +44,6 @@
                                     <a href="{$WWWROOT}{$tertiaryitem.url}">
                                         {$tertiaryitem.title}
                                     </a>
-        
                                 </li>
                                 {/foreach}
                             </ul>
@@ -74,5 +72,3 @@
     </div>
     {/foreach}
 </div>
-
-
