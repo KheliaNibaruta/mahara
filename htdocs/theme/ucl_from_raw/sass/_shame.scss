@@ -72,8 +72,8 @@
     align-items: start;
     gap: 1.25rem;
     margin: 0;
-    padding: 1rem;
-    width: 240px;
+    padding: 2rem 1rem 2rem 1rem;
+    width: 260px;
     background-color: transparent;
     position: sticky;
     height: 100%;
@@ -85,7 +85,7 @@
   /* Sidebar links */
   .sidemenu button {
     display: flex;
-    width: 13rem;
+    width: 14rem;
     align-items: start;
     color: #454441;
     padding: 0.5rem;
@@ -98,7 +98,7 @@
 
   .sidemenu a {
     display: flex;
-    width: 13rem;
+    width: 14rem;
     align-items: start;
     color: #454441;
     padding: 0.5rem;
@@ -146,7 +146,24 @@
   
   /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
   @media screen and (max-width: 400px) {
-    .sidemenu a {
+    .side a {
+      text-align: center;
+      float: none;
+    }
+  } 
+  @media screen and (max-width: 700px) {
+    .side {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .side a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+  @media screen and (max-width: 400px) {
+    .side a {
       text-align: center;
       float: none;
     }
@@ -159,8 +176,8 @@
     align-items: center;
     background-color: rgba(69, 68, 65, 0.80);
     gap: 1.25rem;
-    width: 250px;
-    border-radius: 0.25rem;
+    width: 280px;
+    border-radius: 0rem;
   }
   
   .sidemenu ul{
@@ -171,4 +188,22 @@
 
   .side ul{
     list-style-type: none;
+  }
+
+  .input-group-append {
+    border-color: #bad132;
+    background-color: scale-color($green, $lightness: 5%);
+  }
+  .input-group-append:hover:not(.active) {
+    background-color: #bad132;
+    color: #454441;
+  }
+
+  .home-link {
+    float: right;
+    padding: 1.5rem 0 0.5rem 0; // 13px 0 12px 0;
+  }
+
+  .container-ucl {
+    padding-right: 1rem;
   }

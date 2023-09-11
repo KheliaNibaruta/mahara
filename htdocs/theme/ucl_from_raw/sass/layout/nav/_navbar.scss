@@ -33,7 +33,7 @@
     padding: $spacing-lg 0;
     margin-bottom: 0;
     border: 0;
-    height: 65px;
+    height: 50px;
     overflow: visible;
     @include media-breakpoint-up(md) {
         position: relative;
@@ -43,7 +43,7 @@
         top: auto;
         right: auto;
         margin: 0.8125rem $spacing-xl 0 0; // 13px 20px 0 0;
-        padding: 0.44rem 0;
+        padding: 0.75rem;
         box-shadow: none;
         height: auto !important;
         float: right;
@@ -62,7 +62,7 @@
             margin-left: $spacing-lg;
             @include media-breakpoint-up(md) {
               width: 12rem;
-              height: 3.125rem;
+              height: 2.75rem;
             }
             @include media-breakpoint-up(lg) {
                 width: auto;
@@ -78,7 +78,7 @@
             margin-left: -$btn-border-width;
             @include media-breakpoint-up(md) {
                 float: right;
-                height: 3.125rem;
+                height: 2.75rem;
                 border-top-right-radius: 1.5rem;
                 border-bottom-right-radius: 1.5rem;
             }
@@ -87,8 +87,8 @@
 }
 
 .navbar {
-    border: 1px solid transparent;
-    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid #bad132;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
     padding: 0;
     > .container {
         display: block;

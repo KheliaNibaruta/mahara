@@ -77,6 +77,7 @@
                 {include file="header/topright.tpl"}
 
                 <div class="nav-toggle-area">
+                    
                     {*{if $MAINNAV}
                         <button class="main-nav-toggle navbar-toggle collapsed" type="button" data-bs-toggle="collapse" data-bs-target=".nav-main" aria-expanded="false" aria-controls="main-nav" title='{str tag="mainmenu"}'>
                             <span class="visually-hidden">{str tag="showmainmenu"}</span>
@@ -147,7 +148,7 @@
         {include file="header/matrixheader.tpl"}
     {/if}
 
-    <div class="container main-content">
+    <div class="container-ucl main-content">
         <div class="row">
             <a id="header-main"></a>
             <main id="main" class="{if $SIDEBARS}{if $SIDEBLOCKS.left}col-xl-9 {else}col-xl-9 order-md-2 {/if}{else}col-md-12{/if} main">

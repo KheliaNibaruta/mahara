@@ -25071,7 +25071,7 @@ body .main {
 }
 @media (min-width: 768px) {
   .sidebar {
-    padding-top: 1.875rem;
+    padding-top: 0;
   }
 }
 
@@ -25466,7 +25466,7 @@ body .main-content {
 .header .logo {
   padding: 0.375rem 0.375rem 0.375rem 0;
   display: inline-block;
-  height: 6.875rem;
+  height: 6rem;
 }
 .header .logo.change-to-small {
   display: none;
@@ -25501,7 +25501,7 @@ body .main-content {
 }
 @media (min-width: 768px) {
   .header .navbar-main.navbar {
-    height: 6.875rem;
+    height: 6rem;
   }
 }
 
@@ -27715,7 +27715,7 @@ a.card-footer:not([href]):not([tabindex]) {
 }
 .navbar-main .nav-toggle-area {
   float: right;
-  padding: 0.8125rem 0 0.75rem 0;
+  padding: 1.5rem 0 0.5rem 0;
 }
 .navbar-main .navbar-collapse {
   margin-right: -0.9375rem;
@@ -27729,7 +27729,7 @@ a.card-footer:not([href]):not([tabindex]) {
   .navbar-main .navbar-collapse {
     position: absolute;
     right: 0.9375rem;
-    top: 6.875rem;
+    top: 6rem;
     max-width: 300px;
     z-index: 5;
     overflow-y: hidden;
@@ -27739,22 +27739,22 @@ a.card-footer:not([href]):not([tabindex]) {
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
   }
   .header.no-site-messages .navbar-main .navbar-collapse {
-    max-height: calc(100vh - 9.5rem);
+    max-height: calc(100vh - 8.625rem);
   }
   .header.message-count-1 .navbar-main .navbar-collapse {
-    max-height: calc(100vh - 9.5rem);
+    max-height: calc(100vh - 8.625rem);
   }
   .header.message-count-2 .navbar-main .navbar-collapse {
-    max-height: calc(100vh - 12.125rem);
+    max-height: calc(100vh - 11.25rem);
   }
   .header.message-count-3 .navbar-main .navbar-collapse {
-    max-height: calc(100vh - 14.75rem);
+    max-height: calc(100vh - 13.875rem);
   }
   .header.message-count-4 .navbar-main .navbar-collapse {
-    max-height: calc(100vh - 17.375rem);
+    max-height: calc(100vh - 16.5rem);
   }
   .header.message-count-5 .navbar-main .navbar-collapse {
-    max-height: calc(100vh - 20rem);
+    max-height: calc(100vh - 19.125rem);
   }
   .navbar-main .navbar-collapse.show {
     overflow-y: auto;
@@ -27991,7 +27991,7 @@ a.card-footer:not([href]):not([tabindex]) {
   padding: 0.9375rem 0;
   margin-bottom: 0;
   border: 0;
-  height: 65px;
+  height: 50px;
   overflow: visible;
 }
 @media (min-width: 768px) {
@@ -28003,7 +28003,7 @@ a.card-footer:not([href]):not([tabindex]) {
     top: auto;
     right: auto;
     margin: 0.8125rem 1.25rem 0 0;
-    padding: 0.44rem 0;
+    padding: 0.75rem;
     -webkit-box-shadow: none;
     box-shadow: none;
     height: auto !important;
@@ -28026,7 +28026,7 @@ a.card-footer:not([href]):not([tabindex]) {
 @media (min-width: 768px) {
   .navbar-form.navbar-collapse .header-search-form input[type=text] {
     width: 12rem;
-    height: 3.125rem;
+    height: 2.75rem;
   }
 }
 @media (min-width: 992px) {
@@ -28043,16 +28043,16 @@ a.card-footer:not([href]):not([tabindex]) {
 @media (min-width: 768px) {
   .navbar-form.navbar-collapse .header-search-form .input-group-append {
     float: right;
-    height: 3.125rem;
+    height: 2.75rem;
     border-top-right-radius: 1.5rem;
     border-bottom-right-radius: 1.5rem;
   }
 }
 
 .navbar {
-  border: 1px solid transparent;
-  -webkit-box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.5);
-  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid #bad132;
+  -webkit-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
   padding: 0;
 }
 .navbar > .container {
@@ -29553,17 +29553,17 @@ form#search .sortoption .picker {
 }
 @media (min-width: 768px) {
   .header.message-count-1 ~ .container .toolbar-affix.affix {
-    margin-top: 9.5rem;
+    margin-top: 8.625rem;
   }
 }
 @media (min-width: 768px) {
   .header.message-count-1 + .main-content {
-    margin-top: 9.5rem;
+    margin-top: 8.625rem;
   }
 }
 @media (min-width: 768px) {
   .header.message-count-1 ~ .pageheader {
-    margin-top: 9.5rem;
+    margin-top: 8.625rem;
   }
 }
 
@@ -29577,17 +29577,17 @@ form#search .sortoption .picker {
 }
 @media (min-width: 768px) {
   .header.message-count-2 ~ .container .toolbar-affix.affix {
-    margin-top: 12.125rem;
+    margin-top: 11.25rem;
   }
 }
 @media (min-width: 768px) {
   .header.message-count-2 + .main-content {
-    margin-top: 12.125rem;
+    margin-top: 11.25rem;
   }
 }
 @media (min-width: 768px) {
   .header.message-count-2 ~ .pageheader {
-    margin-top: 12.125rem;
+    margin-top: 11.25rem;
   }
 }
 
@@ -29601,17 +29601,17 @@ form#search .sortoption .picker {
 }
 @media (min-width: 768px) {
   .header.message-count-3 ~ .container .toolbar-affix.affix {
-    margin-top: 14.75rem;
+    margin-top: 13.875rem;
   }
 }
 @media (min-width: 768px) {
   .header.message-count-3 + .main-content {
-    margin-top: 14.75rem;
+    margin-top: 13.875rem;
   }
 }
 @media (min-width: 768px) {
   .header.message-count-3 ~ .pageheader {
-    margin-top: 14.75rem;
+    margin-top: 13.875rem;
   }
 }
 
@@ -29625,17 +29625,17 @@ form#search .sortoption .picker {
 }
 @media (min-width: 768px) {
   .header.message-count-4 ~ .container .toolbar-affix.affix {
-    margin-top: 17.375rem;
+    margin-top: 16.5rem;
   }
 }
 @media (min-width: 768px) {
   .header.message-count-4 + .main-content {
-    margin-top: 17.375rem;
+    margin-top: 16.5rem;
   }
 }
 @media (min-width: 768px) {
   .header.message-count-4 ~ .pageheader {
-    margin-top: 17.375rem;
+    margin-top: 16.5rem;
   }
 }
 
@@ -29649,17 +29649,17 @@ form#search .sortoption .picker {
 }
 @media (min-width: 768px) {
   .header.message-count-5 ~ .container .toolbar-affix.affix {
-    margin-top: 20rem;
+    margin-top: 19.125rem;
   }
 }
 @media (min-width: 768px) {
   .header.message-count-5 + .main-content {
-    margin-top: 20rem;
+    margin-top: 19.125rem;
   }
 }
 @media (min-width: 768px) {
   .header.message-count-5 ~ .pageheader {
-    margin-top: 20rem;
+    margin-top: 19.125rem;
   }
 }
 
@@ -29670,12 +29670,12 @@ form#search .sortoption .picker {
 @media (min-width: 768px) {
   .no-site-messages + .main-content,
   .no-site-messages + .main-content .toolbar-affix.affix {
-    margin-top: 6.875rem;
+    margin-top: 6rem;
   }
 }
 @media (min-width: 768px) {
   .no-site-messages ~ .pageheader {
-    margin-top: 6.875rem;
+    margin-top: 6rem;
   }
 }
 
@@ -39458,7 +39458,7 @@ div.toolbarhtml div {
 }
 
 #institution_logohtml_container img {
-  max-height: 6.875rem;
+  max-height: 6rem;
 }
 
 #institution_logoxshtml_container img {
@@ -39705,10 +39705,10 @@ div.toolbarhtml div {
   align-items: start;
   gap: 1.25rem;
   margin: 0;
-  padding: 1rem;
-  width: 240px;
+  padding: 2rem 1rem 2rem 1rem;
+  width: 260px;
   background-color: transparent;
-  position: sticky;
+  position: static;
   height: 100%;
   overflow: auto;
   border-radius: 0.25rem;
@@ -39720,7 +39720,7 @@ div.toolbarhtml div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 13rem;
+  width: 14rem;
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: start;
@@ -39737,7 +39737,7 @@ div.toolbarhtml div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 13rem;
+  width: 14rem;
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: start;
@@ -39789,7 +39789,27 @@ div.content {
 }
 /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
 @media screen and (max-width: 400px) {
-  .sidemenu a {
+  .side a {
+    text-align: center;
+    float: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  .side {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .side a {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;
+  }
+}
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .side a {
     text-align: center;
     float: none;
   }
@@ -39808,8 +39828,8 @@ div.content {
   align-items: center;
   background-color: rgba(69, 68, 65, 0.8);
   gap: 1.25rem;
-  width: 250px;
-  border-radius: 0.25rem;
+  width: 280px;
+  border-radius: 0rem;
 }
 
 .sidemenu ul {
@@ -39820,4 +39840,23 @@ div.content {
 
 .side ul {
   list-style-type: none;
+}
+
+.input-group-append {
+  border-color: #bad132;
+  background-color: #bdd33c;
+}
+
+.input-group-append:hover:not(.active) {
+  background-color: #bad132;
+  color: #454441;
+}
+
+.home-link {
+  float: right;
+  padding: 1.5rem 0 0.5rem 0;
+}
+
+.container-ucl {
+  padding-right: 1rem;
 }

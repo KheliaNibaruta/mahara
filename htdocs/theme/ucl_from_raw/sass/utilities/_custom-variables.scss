@@ -48,7 +48,7 @@ $site-footer-hover-bg:                      #eee !default;
 $site-message-height:                       (0.375rem + 0.375rem + $font-size-base) * $line-height-base !default; // (padding-top + padding-bottom + font-size) * line-height
 
 // Site header
-$navbar-height:                             6.875rem !default; // 60px, must be in rem for site messages calculation to work
+$navbar-height:                             6rem !default; // 60px, must be in rem for site messages calculation to work
 $navbar-default-bg:                         $white !default;
 $navbar-default-border:                     scale-color($green, $lightness: -6.5%) !default;
 

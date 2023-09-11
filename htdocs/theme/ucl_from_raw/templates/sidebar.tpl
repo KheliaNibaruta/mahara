@@ -1,5 +1,5 @@
 
-<div id="rigthmenu" class="side">
+<div class="side">
     <nav aria-label="{str tag=mainmenu setction=mahara}">
     {*<div id="main-nav" class="{if $ADMIN || $INSTITUTIONALADMIN || $STAFF || $INSTITUTIONALSTAFF || $INSTITUTIONALSUPPORTADMIN}adminnav{/if} nav collapse navbar-collapse nav-main">
     *} <ul class="sidemenu">
