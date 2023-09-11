@@ -148,7 +148,7 @@
         {include file="header/matrixheader.tpl"}
     {/if}
 
-    <div class="container-ucl main-content">
+    <div class="container main-content">
         <div class="row">
             <a id="header-main"></a>
             <main id="main" class="{if $SIDEBARS}{if $SIDEBLOCKS.left}col-xl-9 {else}col-xl-9 order-md-2 {/if}{else}col-md-12{/if} main">

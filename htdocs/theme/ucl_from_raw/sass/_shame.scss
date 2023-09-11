@@ -73,7 +73,7 @@
     gap: 1.25rem;
     margin: 0;
     padding: 2rem 1rem 2rem 1rem;
-    width: 260px;
+    width: 240px;
     background-color: transparent;
     position: sticky;
     height: 100%;
@@ -85,7 +85,7 @@
   /* Sidebar links */
   .sidemenu button {
     display: flex;
-    width: 14rem;
+    width: 13rem;
     align-items: start;
     color: #454441;
     padding: 0.5rem;
@@ -98,7 +98,7 @@
 
   .sidemenu a {
     display: flex;
-    width: 14rem;
+    width: 13rem;
     align-items: start;
     color: #454441;
     padding: 0.5rem;
@@ -176,7 +176,7 @@
     align-items: center;
     background-color: rgba(69, 68, 65, 0.80);
     gap: 1.25rem;
-    width: 280px;
+    width: 250px;
     border-radius: 0rem;
   }
   
@@ -202,8 +202,4 @@
   .home-link {
     float: right;
     padding: 1.5rem 0 0.5rem 0; // 13px 0 12px 0;
-  }
-
-  .container-ucl {
-    padding-right: 1rem;
   }

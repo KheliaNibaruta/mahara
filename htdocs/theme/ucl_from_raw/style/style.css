@@ -25071,7 +25071,7 @@ body .main {
 }
 @media (min-width: 768px) {
   .sidebar {
-    padding-top: 0;
+    padding-top: 1.875rem;
   }
 }
 
@@ -27715,7 +27715,7 @@ a.card-footer:not([href]):not([tabindex]) {
 }
 .navbar-main .nav-toggle-area {
   float: right;
-  padding: 1.5rem 0 0.5rem 0;
+  padding: 1.75rem 0 0.5rem 0;
 }
 .navbar-main .navbar-collapse {
   margin-right: -0.9375rem;
@@ -39706,9 +39706,9 @@ div.toolbarhtml div {
   gap: 1.25rem;
   margin: 0;
   padding: 2rem 1rem 2rem 1rem;
-  width: 260px;
+  width: 240px;
   background-color: transparent;
-  position: static;
+  position: sticky;
   height: 100%;
   overflow: auto;
   border-radius: 0.25rem;
@@ -39720,7 +39720,7 @@ div.toolbarhtml div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 14rem;
+  width: 13rem;
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: start;
@@ -39737,7 +39737,7 @@ div.toolbarhtml div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 14rem;
+  width: 13rem;
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: start;
@@ -39828,7 +39828,7 @@ div.content {
   align-items: center;
   background-color: rgba(69, 68, 65, 0.8);
   gap: 1.25rem;
-  width: 280px;
+  width: 250px;
   border-radius: 0rem;
 }
 
@@ -39855,8 +39855,4 @@ div.content {
 .home-link {
   float: right;
   padding: 1.5rem 0 0.5rem 0;
-}
-
-.container-ucl {
-  padding-right: 1rem;
 }
