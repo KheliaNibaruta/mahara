@@ -56,11 +56,6 @@
                     <a href="{$WWWROOT}" class="logo {if $sitelogocustomsmall || (!$sitelogocustomsmall && !$sitelogocustom)}change-to-small{/if}">
                         <img src="{$sitelogo}" alt="{$sitename}" data-bs-customlogo="{$sitelogocustom}" >
                     </a>
-                    <button class="accueil">
-                        <a href="{$WWWROOT}" class="accueil">
-                            Accueil
-                        </a>
-                    </button>
                     {if $sitelogocustomsmall}
                         <a href="{$WWWROOT}" class="logoxs">
                             <img src="{$sitelogocustomsmall}" alt="{$sitename}">
