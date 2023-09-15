@@ -1084,7 +1084,7 @@ $card-spacer-x:                     $spacer !default;
 $card-title-spacer-y:               math.div($spacer, 2) !default;
 $card-border-width:                 $border-width !default;
 $card-border-radius:                $border-radius !default;
-$card-border-color:                 rgba($black, .125) !default;
+$card-border-color:                 $green !default;
 $card-inner-border-radius:          subtract($card-border-radius, $card-border-width) !default;
 $card-cap-padding-y:                math.div($card-spacer-y, 2) !default;
 $card-cap-padding-x:                $card-spacer-x !default;
@@ -1304,8 +1304,8 @@ $progress-bar-transition:           width .6s ease !default;
 
 // scss-docs-start list-group-variables
 $list-group-color:                  $gray-900 !default;
-$list-group-bg:                     $white !default;
-$list-group-border-color:           rgba($black, .125) !default;
+$list-group-bg:                     scale-color($green, 50%) !default;
+$list-group-border-color:           rgba($green, .125) !default;
 $list-group-border-width:           $border-width !default;
 $list-group-border-radius:          $border-radius !default;
 

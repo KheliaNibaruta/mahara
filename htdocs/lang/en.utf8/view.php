@@ -98,7 +98,7 @@ $string['nportfolios'] = array(
     '%s portfolio',
     '%s portfolios'
 );
-$string['Viewscollections1'] = 'Portfolios';
+$string['Viewscollections1'] = 'My Portfolios';
 $string['viewsubmittedtogroup1'] = 'This portfolio has been submitted to <a href="%s">%s</a>.';
 $string['viewsubmittedtogroupon1'] = 'This portfolio was submitted to <a href="%s">%s</a> on %s.';
 $string['viewsubmittedtogroupgrade'] = 'This portfolio was submitted to the assignment <a href="%s">"%s"</a> in "%s" on %s.';

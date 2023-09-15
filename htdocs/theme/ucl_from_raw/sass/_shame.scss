@@ -72,8 +72,8 @@
     align-items: start;
     gap: 1.25rem;
     margin: 0;
-    padding: 2rem 1rem 2rem 1rem;
-    width: 240px;
+    padding: 1rem;
+    width: 260px;
     background-color: transparent;
     position: sticky;
     height: 100%;
@@ -115,10 +115,10 @@
     color: #454441;
   }
   
-  /* Links on mouse-over */
+  /* Links and sidebar buttons on mouse-over */
   
   .sidemenu a:hover:not(.active) {
-    background-color: #bad132;
+    background-color: scale-color($green, 20%);
     color: #454441;
   }
   .sidemenu button:hover:not(.active) {
@@ -174,10 +174,12 @@
     padding: 1rem;
     flex-direction: column;
     align-items: center;
+    position: sticky;
     background-color: rgba(69, 68, 65, 0.80);
     gap: 1.25rem;
-    width: 250px;
-    border-radius: 0rem;
+    height: auto;
+    width: 260px;
+    border-radius: 0.25rem;
   }
   
   .sidemenu ul{
@@ -190,14 +192,7 @@
     list-style-type: none;
   }
 
-  .input-group-append {
-    border-color: #bad132;
-    background-color: scale-color($green, $lightness: 5%);
-  }
-  .input-group-append:hover:not(.active) {
-    background-color: #bad132;
-    color: #454441;
-  }
+  
 
   .home-link {
     float: right;

@@ -1951,7 +1951,7 @@ progress {
   margin-bottom: 1rem;
   color: #454441;
   vertical-align: top;
-  border-color: rgba(69, 68, 65, 0.125);
+  border-color: rgba(186, 209, 50, 0.125);
 }
 .table > :not(caption) > * > * {
   padding: 0.5rem 0.5rem;
@@ -1967,7 +1967,7 @@ progress {
   vertical-align: bottom;
 }
 .table > :not(:last-child) > :last-child > * {
-  border-bottom-color: rgba(69, 68, 65, 0.125);
+  border-bottom-color: rgba(186, 209, 50, 0.125);
 }
 
 .caption-top {
@@ -2191,7 +2191,7 @@ progress {
   color: #6c6a65;
   background-color: #fff;
   background-clip: padding-box;
-  border: 0.0625rem solid #dadada;
+  border: 0.0625rem solid #bad132;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -2423,7 +2423,7 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-position: right 0.75rem center;
   background-size: 16px 12px;
-  border: 0.0625rem solid #dadada;
+  border: 0.0625rem solid #bad132;
   border-radius: 0.25rem;
   -webkit-box-shadow: inset 0 1px 2px rgba(69, 68, 65, 0.075);
   box-shadow: inset 0 1px 2px rgba(69, 68, 65, 0.075);
@@ -2833,7 +2833,7 @@ textarea.form-control-lg {
   text-align: center;
   white-space: nowrap;
   background-color: #cccccc;
-  border: 0.0625rem solid #dadada;
+  border: 0.0625rem solid #bad132;
   border-radius: 0.25rem;
 }
 .enable-rfs .input-group-text, .input-group-text.enable-rfs {
@@ -4090,7 +4090,7 @@ h1 ~ .form.with-heading,
 .h1 ~ .form.with-heading {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
-  background-color: #c4d851;
+  background-color: white;
   padding: 1.25rem 0.625rem 0.625rem 0.625rem;
   margin-top: -1.25rem;
   margin-bottom: 0.9375rem;
@@ -4284,7 +4284,7 @@ hr {
   margin-bottom: 1rem;
   background-color: transparent;
   opacity: 1;
-  border-top: 0.0625rem solid rgba(69, 68, 65, 0.125);
+  border-top: 0.0625rem solid rgba(186, 209, 50, 0.125);
 }
 
 ul.unstyled.unstyled {
@@ -4375,7 +4375,7 @@ pre {
   word-break: break-all;
   word-wrap: break-word;
   background-color: #f5f5f5;
-  border: 0.0625rem solid rgba(69, 68, 65, 0.125);
+  border: 0.0625rem solid rgba(186, 209, 50, 0.125);
   border-radius: 0.1875rem;
 }
 pre span.wsname {
@@ -5071,8 +5071,8 @@ section > h3:first-child, section > .h3:first-child {
 }
 
 .table > thead > tr > th {
-  border-bottom: 0.125rem solid rgba(69, 68, 65, 0.125);
-  border-color: rgba(69, 68, 65, 0.125);
+  border-bottom: 0.125rem solid rgba(186, 209, 50, 0.125);
+  border-color: rgba(186, 209, 50, 0.125);
 }
 .table > thead > tr > th.active {
   background: #fefdf8;
@@ -5176,7 +5176,7 @@ td.tiny.with-icon {
   margin: 0;
 }
 .table td {
-  border-top: 0.0625rem solid rgba(69, 68, 65, 0.125);
+  border-top: 0.0625rem solid rgba(186, 209, 50, 0.125);
   border-bottom-width: 0;
   white-space: normal;
 }
@@ -5231,7 +5231,7 @@ td.tiny.with-icon {
   background-color: #faf5e4;
 }
 .table > tbody > tr > th {
-  border-top: 0.0625rem solid rgba(69, 68, 65, 0.125);
+  border-top: 0.0625rem solid rgba(186, 209, 50, 0.125);
   border-bottom: 0;
 }
 .table > tbody > tr.warning td {
@@ -5306,8 +5306,8 @@ td.tiny.with-icon {
 
 .table-selectedlist {
   font-size: 0.875rem;
-  border-top: 0.0625rem solid rgba(69, 68, 65, 0.125);
-  border-bottom: 0.0625rem solid rgba(69, 68, 65, 0.125);
+  border-top: 0.0625rem solid rgba(186, 209, 50, 0.125);
+  border-bottom: 0.0625rem solid rgba(186, 209, 50, 0.125);
   margin-top: 0.625rem;
 }
 
@@ -5413,12 +5413,12 @@ table.table tr .with-selectall {
 }
 
 .table.attachment-table {
-  border: 0.0625rem solid rgba(69, 68, 65, 0.125);
+  border: 0.125rem solid rgba(186, 209, 50, 0.125);
   border-radius: 0.25rem;
 }
 .table.attachment-table > thead > tr > th {
-  background-color: #f9f9f9;
-  border-radius: calc(0.25rem - 0.0625rem) calc(0.25rem - 0.0625rem) 0 0;
+  background-color: #dde899;
+  border-radius: calc(0.25rem - 0.125rem) calc(0.25rem - 0.125rem) 0 0;
   border-bottom: 0;
   text-transform: none;
   font-weight: 400;
@@ -5427,7 +5427,7 @@ table.table tr .with-selectall {
 .table.attachment-table > tbody > tr > td {
   font-size: 0.875rem;
   padding: 0.75rem 0.9375rem;
-  border-top: 1px solid rgba(69, 68, 65, 0.125);
+  border-top: 1px solid rgba(186, 209, 50, 0.125);
   border-bottom: 0;
 }
 .table.attachment-table > tbody > tr > td img {
@@ -5458,7 +5458,7 @@ tr.child td.child .pt-feedback p:last-child {
 }
 
 table#submissions {
-  border-bottom: 0.0625rem solid rgba(69, 68, 65, 0.125);
+  border-bottom: 0.0625rem solid rgba(186, 209, 50, 0.125);
   width: 100% !important;
 }
 
